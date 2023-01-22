@@ -31,6 +31,7 @@ const AddCommand = () => {
         className="form-control mb-2 mr-sm-2"
         placeholder="enter [F, B, L, R] Command"
         value={value}
+        required
         onChange={(event) => setValue(event.target.value)}
       ></input>
 
